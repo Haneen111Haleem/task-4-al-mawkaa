@@ -1,0 +1,337 @@
+header{
+  
+   background-image: linear-gradient(rgba(42, 40, 40, 0.6),rgba(0,0,0,0.6)),url(https://elmawkaa.com/img/bg/home-bg.jpg);
+   background-position:top;
+   height: 400px;
+   color: white;
+}
+
+body{
+   direction: rtl;
+   font-family: 'Droid Arabic Kufi';
+   font-family:'Lato', sans-serif;
+}
+
+/*total navbar*/
+nav{
+      display: flex;
+      position: relative;
+      background-color: rgba(34, 33, 33, 0.3);
+      font-size: 17px;
+      font-weight: 900px;
+}
+
+/*for the content in the nav bar*/
+
+.container li{
+   color: white;
+   display: inline;
+   padding-left: 10px;
+   padding-right: 3px;
+
+}
+
+/*for the login button*/
+
+.login{
+   display: flex;
+   position: relative;
+   padding-right: 225px;
+}
+
+.fa-solid{
+   color: white;
+}
+
+.login a{
+   padding-right: 5px;
+   padding-left: 5px;
+   text-decoration: none;
+   color: black;
+}
+ 
+#new{
+   padding: 0.5px 2px 0.5px 2px;
+   border-radius: 5px;
+   color: white;
+   background-color: green;
+}
+
+/*language*/
+
+.lang{
+   padding-right: 10px;
+}
+
+/*header*/
+
+header {
+   padding-top: 300px;
+   text-align: center;
+   justify-content: center;
+   font-family: Droid Arabic Kufi;
+}
+header h1{
+   padding-top: 60px;
+   font-size: 50px;
+   font-weight: 200px;
+   font-family:'Lato', sans-serif;
+}
+header #p-one{
+   margin-top: -19px;
+   padding-top: 0px;
+   font-size: 20px;
+}
+
+input{
+   
+   text-align: center;
+   width: 450px;
+   height: 45px;
+   font-size: medium;
+}
+
+/*the popup alert*/
+
+header a{
+   padding: 10px 12px;
+   background-color:  #935CAE;
+   text-decoration: none;
+   color: white;
+   border-radius: 5px;
+
+}
+header #p-two{    /*the line fter the input*/
+   padding-top: 7px;
+}
+
+
+
+                       /*section one */
+
+.one{
+   padding-top: 60px;
+}
+
+.one h1{           /*the title for this section*/
+   text-align: center;
+   justify-content: center;
+   font-size: 55px;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+
+.upp{
+   display: flex;
+   justify-content: center;
+}
+
+#concrete,
+#packets,
+#van{
+   border-radius: 7px;
+   color: black;
+   text-decoration: none;
+}
+
+#concrete-img,
+#packets-img,
+#van-img{
+   height: 400px;
+   border-radius: 7px;
+   margin-left: 20px;
+   opacity: 1;
+}
+
+#concrete:hover,
+#packets:hover,
+#van:hover{
+   color: white;
+   opacity: 0.5;
+}
+
+.upp p{
+   font-size: 25px;
+   margin-top: -100%;
+   margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+                       /*section two*/
+.two{
+   padding-top: 400px;
+}
+
+.two h1{
+   text-align: center;
+   justify-content: center;
+   font-size: 45px;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+
+.img{
+   height: 650px;
+   width: auto;
+}
+.all{
+   display:flex;
+   justify-content: center;  
+   padding-bottom: 100px;
+
+}
+.two a{
+   text-align: center;
+   justify-content: center;  
+   text-decoration: none;
+   color: black;
+   font-family:'Lato', sans-serif;
+}
+/*for the icons*/
+#a-one,
+#a-two,
+#a-three{
+   margin-left: 7px;
+   color: #935CAE;
+   background-color: white;
+   height: auto;
+   width: auto;
+   font-size: larger;
+   padding: 15px 15px;
+   border-radius: 50%;
+   box-shadow: 2px 2px 2px 2px rgb(190, 190, 190);
+}
+
+#a-one:hover,
+#a-two:hover,
+#a-three:hover{
+   color: white;
+   background-color: #935CAE;
+}
+
+/*the button at the end of section two*/
+.a-steps{
+   text-align: center;
+   justify-content: center;
+   margin-top: -2%;
+}
+
+#steps{
+   color: white;
+   background-color: #935CAE;
+   padding: 10px 15px;
+   font-size: 18px;
+   font-weight: 200px;
+   border-radius: 5px;
+}
+
+#steps:hover{
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section before the footer*/
+.last{
+   margin-top: 170px;
+   padding-top: 100px;
+   justify-content: center;
+   text-align: center;
+   background:linear-gradient(60deg, #464498, #6b358b, #3e225d);
+   padding-bottom: 70px;
+}
+.last h3{
+   color: white;
+   font-size: 30px;
+   font-family:'Lato', sans-serif;
+   font-weight: 100px;
+
+}
+.last h1{
+   margin-top: -12px;
+   color: #FF9B17;
+   font-size: 50px;
+   font-family:'Lato', sans-serif;
+   letter-spacing: 1px;
+}
+.last h4{
+   color: white;
+   margin-top: -10px;
+   padding-bottom: 5px;
+   font-family:'Lato', sans-serif;
+   letter-spacing: 1px;
+   font-weight: 100px;
+}
+.last a{
+   color:white;
+   text-decoration: none;
+   border: white 1px solid;
+   border-radius: 5px;
+   padding: 10px 10px;
+
+}
+
+/*footer*/
+
+footer{
+   padding-top: 80px;
+
+}
+.some{
+  text-align: center;
+   display: flex;
+}
+/*for the icons*/
+#env, 
+#call,
+#loc{
+   font-size: 40px; 
+   color: #333;  
+}
+.un{
+   margin-right: 320px;
+   padding-left: 60px;
+}
+.deux,
+.trois{
+   padding-right: 150px;
+}
+/*the icons' titles*/
+.some h3{
+   margin-top: -0.5%;
+   font-size: x-large;
+   color: #333;
+}
+.some p{
+   margin-top: -15px;
+   color: #777;
+}

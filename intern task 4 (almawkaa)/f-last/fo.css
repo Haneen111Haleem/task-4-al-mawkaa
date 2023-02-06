@@ -1,0 +1,259 @@
+body {
+    direction: rtl;
+    font-family: 'Droid Arabic Kufi', 'Lato', sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.6)), url(https://elmawkaa.com/img/bg/home-bg.jpg);
+    background-position: top;
+    background-repeat: repeat-y;
+}
+
+/*total navbar*/
+nav {
+
+    display: flex;
+    position: relative;
+    background-color: rgba(92, 92, 92, 0.7);
+    font-size: 17px;
+    font-weight: 900px;
+}
+
+/*for the content in the nav bar*/
+
+.container li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 3px;
+
+}
+
+/*for the login button*/
+
+.login {
+    display: flex;
+    position: relative;
+    padding-right: 225px;
+}
+
+.fa-solid {
+    color: darkgreen;
+}
+
+.login a {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#new {
+    padding: 0.5px 2px 0.5px 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+/*language*/
+
+.lang {
+    padding-right: 10px;
+}
+
+/*container*/
+
+.container-1 {
+    width: 750px;
+    margin: 5% auto;
+    background: white;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#first-btn {
+    padding-top: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+#how {
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #935CAE;
+    font-family: inherit;
+    font-size: large;
+    font-weight: 100px;
+    border: #935CAE 1px solid;
+    border-radius: 7px;
+    padding: 10px 10px;
+}
+
+#how:hover {
+    color: white;
+    background-color: #935CAE;
+}
+
+#first-btn p {
+    margin-top: 35px;
+    font-family: 'Droid Arabic Kufi', 'Lato', sans-serif;
+    color: #777;
+    font-size: 20px;
+}
+
+#first-btn #pp {
+    margin-top: -5px;
+    font-family: inherit;
+    color: #777;
+    font-size: 45px;
+    font-weight: lighter;
+    padding-bottom: 25px;
+}
+
+
+/*container ends*/
+/*form starts*/
+.tab {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #e9edf0;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 25px;
+}
+
+label {
+    padding-bottom: 60px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #777;
+}
+
+#ones,
+#twos,
+#three,
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: #777;
+    border-radius: 7px;
+    height: 30px;
+    width: 250px;
+}
+
+#text-one {
+    padding-top: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: #777;
+    border-radius: 7px;
+    height: 95px;
+    width: 250px;
+}
+
+/*form 2 begins*/
+
+label {
+    padding-bottom: 60px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #777;
+}
+
+input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: #777;
+    border-radius: 7px;
+    height: 30px;
+    width: 250px;
+}
+
+.tab {
+    display: none;
+}
+
+#ones-2,
+#twos-2,
+#three-2,
+#mail{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: #777;
+    border-radius: 7px;
+    height: 30px;
+    width: 250px;
+}
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/*for the third form*/
+.check{
+    height: 15px;
+    justify-content: right;
+}
+.c{
+    padding-right: -50px;
+}
+
+/*form buttons*/
+
+#prevBtn {
+    text-decoration: none;
+    color: white;
+    background-color: #935CAE;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 20px;
+    border: #935CAE;
+    margin: 10px 10px 10px 0px;
+}
+
+#nextBtn {
+    text-decoration: none;
+    color: white;
+    background-color: #935CAE;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 20px;
+    border: #935CAE;
+    margin: 10px 0px 10px 10px;
+    float: left;
+}
+/*progress*/
+
+.step{
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 7px;
+    background-color: #e9edf0;
+    padding: 10px;
+    color:#777;
+    height: 25px;
+}
+
+.step.active{
+    background-color: #935CAE;
+    color: white;
+}
+
+.step.finish{
+    background-color: #6f42c1;
+    color: white;
+
+}
+/*
+.fa-solid{
+    padding-left: 3px;
+    font-size: 10px;
+    color: #777;
+
+}
+.fa-solid.active{
+   
+    color: white;
+  
+}
+
+*/
